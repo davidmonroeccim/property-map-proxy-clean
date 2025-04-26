@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-export default async function handler(req, res) {
+module.exports = async (req, res) => {
   const GHL_API_KEY = process.env.GHL_API_KEY;
   const CUSTOM_OBJECT_ID = process.env.CUSTOM_OBJECT_ID;
 
