@@ -1,0 +1,8 @@
+{
+  "name": "property-map-proxy",
+  "version": "1.0.0",
+  "main": "api/properties.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
