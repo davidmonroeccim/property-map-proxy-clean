@@ -29,3 +29,4 @@ module.exports = async (req, res) => {
   console.error('Error fetching GHL data:', error);
   res.status(500).send('Error fetching properties');
 }
+};
